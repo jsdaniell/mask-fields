@@ -6,16 +6,14 @@ The npm package to mask and format fields.
 
 This package allows you to format string data in standard formats such as the examples below.
 
-Ignore "[]"
-
-* CPF Brazillian Document [123.456.789.00]
-* Telephone Number [(85) 12345 -7890]
-* Brazillian Postal Code [12.355-201]
-* CNPJ Brazillian Document [12.345.678/1234-00]
-* Credit Card [1234.5678.3216.6547]
-* Brazillian General Document [1234567890-1]
-* Date [02/08/2019]
-* Money [100,00] - [1000,00]...
+* CPF Brazillian Document → 123.456.789.00
+* Telephone Number → (85) 12345 -7890
+* Brazillian Postal Code → 12.355-201
+* CNPJ Brazillian Document → 12.345.678/1234-00
+* Credit Card → 1234.5678.3216.6547
+* Brazillian General Document → 1234567890-1
+* Date → 02/08/2019
+* Money → 100,00 - 1000,00...
 
 ### Aditional Formats
 

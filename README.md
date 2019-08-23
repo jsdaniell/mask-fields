@@ -25,7 +25,7 @@ This package allows you to format string data in standard formats such as the ex
 
 
 ## Install
-To install the package run `ǹpm install @jsdaniell/mask-fields` on terminal.
+To install the package run `npm install @jsdaniell/mask-fields` on terminal.
 
 ## How to use?
 

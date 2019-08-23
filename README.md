@@ -19,9 +19,9 @@ This package allows you to format string data in standard formats such as the ex
 
 ### Aditional Formats
 
-→ Only numbers filter mask, don't allow non-numeric characters.
-→ No latin letters → Permissives [123,.-=+...] ← No letters
-→ Only letters [abcDEF...]
+* Only numbers filter mask, don't allow non-numeric characters.
+* No latin letters → Permissives [123,.-=+...] ← No letters
+* Only letters [abcDEF...]
 
 
 ## Install

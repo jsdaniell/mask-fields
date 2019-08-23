@@ -1,4 +1,14 @@
 {
   "name": "@jsdaniell/mask-fields",
-  "version": "1.0.0"
+  "version": "1.0.1",
+  "description": "Format data to masked information.",
+  "license": "MIT",
+  "repository": "jsdaniell/mask-fields",
+  "main": "index.js",
+  "keywords": [
+    "mask",
+    "format",
+    "string",
+    "jsdaniell"
+  ]
 }

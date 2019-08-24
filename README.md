@@ -1,6 +1,6 @@
 # Mask Fields
 
-[![GitHub license](https://img.shields.io/github/license/jsdaniell/mask-fields)](https://github.com/jsdaniell/mask-fields/blob/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/jsdaniell/mask-fields)](https://github.com/jsdaniell/mask-fields/issues) [![npm](https://img.shields.io/badge/version-v2.0.3-blue)](https://www.npmjs.com/package/@jsdaniell/mask-fields)
+[![GitHub license](https://img.shields.io/github/license/jsdaniell/mask-fields)](https://github.com/jsdaniell/mask-fields/blob/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/jsdaniell/mask-fields)](https://github.com/jsdaniell/mask-fields/issues) [![npm](https://img.shields.io/badge/version-v2.0.4-blue)](https://www.npmjs.com/package/@jsdaniell/mask-fields)
 
 The npm package to mask and format fields.
 

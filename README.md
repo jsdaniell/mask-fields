@@ -45,4 +45,4 @@ Example using React:
 
 The result will be → 02/11/2019
 
-Remember to use `format.num(event.target.value)` on onChange event of TextField or any component that you're using to reformat the string to numbers again, or `format.onlyLetters(event.target.value) to reformat to only latin characters string.
+Remember to use `format.num(event.target.value)` on onChange event of TextField or any component that you're using to reformat the string to numbers again, or `format.onlyLetters(event.target.value)` to reformat to only latin characters string.

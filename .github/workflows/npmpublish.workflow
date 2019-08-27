@@ -6,5 +6,7 @@ workflow "Build, Test, and Publish" {
 action "Publish" {
   uses = "actions/npm@master"
   args = "publish --access public"
-  secrets = ["${{NPM_AUTH_TOKEN}}"]
+  secrets = [
+    "NPM_AUTH_TOKEN",
+  ]
 }

@@ -5,18 +5,27 @@ on:
     branches:
     - master
 
+on:
+  push:
+    branches:
+      - master
+
 jobs:
   build:
-
     runs-on: ubuntu-latest
-    
     steps:
-    - uses: actions/checkout@v1
-    - name: Run a one-line script
-      env:
-        ${{NPM_AUTH_TOKEN}}
-    - uses: "actions/npm@master"
-    - name: Run a multi-line script
-      run: |
-        npm login
-        npm publish --access=public
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+  publish-npm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+          registry-url: https://registry.npmjs.org/
+      - run: npm publish --access=public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}

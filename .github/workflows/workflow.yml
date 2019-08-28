@@ -1,0 +1,25 @@
+name: Publish
+
+on: 
+  push:
+    branches:
+    - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      env:
+        NPM_LOGIN: ${{secrets.npm_login}}
+        NPM_PASS: ${{secrets.npm_password}}
+      run: echo Hello, world!
+    - name: Run a multi-line script
+      run: |
+        npm login
+        $NPM_LOGIN
+        $NPM_PASS
+        npm publish --access=public

@@ -14,12 +14,9 @@ jobs:
     - uses: actions/checkout@v1
     - name: Run a one-line script
       env:
-        NPM_LOGIN: ${{secrets.npm_login}}
-        NPM_PASS: ${{secrets.npm_password}}
-      run: echo Hello, world!
+        NPM_AUTH_TOKEN: ${{NPM_AUTH_TOKEN}}
+    - uses: "actions/npm@master"
     - name: Run a multi-line script
       run: |
         npm login
-        $NPM_LOGIN
-        $NPM_PASS
         npm publish --access=public

@@ -95,11 +95,11 @@ var date = data => {
   return data;
 };
 
-// Money format [100,00] - [1000,00]...
+// Money format [100.00] - [1000.00]...
 
 var money = moeda => {
   moeda = moeda.toString();
-  moeda = moeda.replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,");
+  moeda = moeda.replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.");
   return moeda;
 };
 
